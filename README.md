@@ -1,2 +1,0 @@
-# vue-trip
-vue-trip
