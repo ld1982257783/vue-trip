@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #ff9854;
+    --line-color: #faf8f9;
+    /* 修改 search 样式 */
+    --van-search-left-icon-color: var(--primary-color) !important;
+    --theme-linear-gradient: linear-gradient(90deg, #fa8c1d, #fcaf3f);
+    /* 修改主体色 */
+    --van-primary-color: var(--primary-color) !important;
+}
+
+body {
+    font-size: 14px;
+}
+
+
+.top-page {
+    position: relative;
+    z-index: 999;
+    height: 100vh;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+.bottom-gray-line {
+    border-bottom: 1px solid var(--line-color);
+}
+
+.icon_check {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../img/detail/icon_check.png) 0 0 / 100% 100%;
+}
